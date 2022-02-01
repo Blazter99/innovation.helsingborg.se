@@ -10,6 +10,7 @@ body {margin:0;
       font-size:100%;
 }
 
+
 #header {display:flex;
          flex-direction:row;
          justify-content:space-evenly;
@@ -53,7 +54,73 @@ body {margin:0;
            width:100%;
 }
 
+.sektion2 p {font-size:20px;
+}
+
+.sektion2 h1 {font-size:200%;}
+
 .visaalla {justify-content:end;
 }
 
-.sektion2img {}
+.sektion2img {display:flex;
+              justify-content:space-evenly;
+              align-items:flex-end;
+              width:100%;
+              color:white;
+              height:400px;
+}
+
+.sektion2img a {color:white;}
+
+.img1 {background-image:url(../images/dsc_0147-hor-scaled-636x848.jpg);
+       background-size:cover;
+       border-radius:10px;
+       height:100%;
+       padding:300px 20px 0px 20px;
+}
+
+
+.img2 {background-image:url(../images/pexels-cottonbro-3171202-scaled-636x848.jpg);
+      background-size:cover;
+       border-radius:10px;
+       height:100%;
+       padding:300px 20px 0px 20px;
+}
+
+.img3 {background-image:url(../images/slf026355-scaled-636x848.jpg);
+      background-size:cover;
+       border-radius:10px;
+       height:100%;
+       padding:300px 20px 0px 20px;
+}
+
+.img4 {background-image:url(../images/pexels-creation-hill-1261909-v2-scaled-636x848.jpg);
+      background-size:cover;
+       border-radius:10px;
+       height:100%;
+       padding:300px 20px 0px 20px;
+}
+
+.sektion3 {display:flex;
+          flex-direction:row;
+          justify-content:center;
+          align-items:center;
+          width:100%;
+          padding:20px 0px;
+}
+
+.sektion3 p {font-size:20px;
+}
+
+.sektion3 h1 {font-size:200%;
+}
+
+.sektion3img {display:flex;
+              flex-direction:row;
+              justify-content:space-evenly;
+              width:100%;
+              padding-top:20px;
+}
+
+.opacity {opacity:0.6;
+}
