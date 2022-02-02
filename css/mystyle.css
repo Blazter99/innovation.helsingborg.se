@@ -168,3 +168,37 @@ img {border-radius:10px;}
 #progress3::-webkit-progress-value {border-radius:10px;
                                     background:green;
 }
+
+.sektion4 {width:100%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+           flex-direction:column;
+           column-gap:20px;
+}
+
+.bottomimg1 {width:50%;
+             height:650px;
+             background-image:url(../images/pexels-andrea-piacquadio-3776868-scaled-1-1366x768.jpg);
+             background-size:cover;
+             background-position:center;
+             border-radius:10px;
+}
+
+.bottomtext {text-align:center;
+}
+
+.bottomspan1 {vertical-align:baseline;              
+}
+
+.bottomimg2 {width:50%;
+             height:480px;
+             background-image:url(../images/sff034032-scaled-1366x768.jpg);
+             background-size:cover;
+             background-position:center;
+}
+
+.bottomtext2 {text-align:center;
+
+}
+
