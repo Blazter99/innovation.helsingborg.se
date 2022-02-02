@@ -34,25 +34,45 @@ img {border-radius:10px;}
             font-size:18px;
 }
 
-.sektion1 {display:flex;
-           flex-direction:row;
-           justify-content:space-around;
-           width:100%;
-           align-items:center;
-           padding:64px 200px;
+.sektion1 {width:100%;
+           display:flex;
+           justify-content:center;
 }
 
-.sektion1 p {font-size:20px;
+.sektion1text {width:25%;
+               padding:0px 50px;
+                        
 }
 
-.sektion1 h1 {font-size:200%;}
+.sektion1text p {font-size:20px;
+}
 
-.topimg {background-size:cover;}
+.sektion1text h1 {font-size:300%;
+                  font-weight:bold;
+}
+
+.topimg {background-image:url(../images/innovation-start-1200x742.png);
+         background-size:contain;
+         background-position:center;
+         background-repeat:no-repeat;
+         width:25%;
+}
 
 .sektion2 {display:flex;
-           flex-direction:row;
-           justify-content:space-around;
+           justify-content:center;
            width:100%;
+}
+
+.sektion2textcontainer {width:50%;
+               
+}
+
+.sektion2text {width:60%;
+
+}
+
+.sektion2text2 {width:40%;
+
 }
 
 .sektion2 p {font-size:20px;
@@ -60,16 +80,10 @@ img {border-radius:10px;}
 
 .sektion2 h1 {font-size:200%;}
 
-.visaalla {justify-content:end;
+.sektion2imgs {width:50%;
+
 }
 
-.sektion2img {display:flex;
-              justify-content:space-evenly;
-              align-items:flex-end;
-              width:100%;
-              color:white;
-              height:400px;
-}
 
 .sektion2img a {color:white;}
 
@@ -77,30 +91,38 @@ img {border-radius:10px;}
        background-size:cover;
        border-radius:10px;
        height:100%;
-       padding:300px 20px 0px 20px;
+       width:12.5%;
 }
+
+.img1text {}
 
 
 .img2 {background-image:url(../images/pexels-cottonbro-3171202-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
        height:100%;
-       padding:300px 20px 0px 20px;
+       width:12.5%;
 }
+
+.img2text {}
 
 .img3 {background-image:url(../images/slf026355-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
        height:100%;
-       padding:300px 20px 0px 20px;
+       width:12.5%;
 }
+
+.img3text {}
 
 .img4 {background-image:url(../images/pexels-creation-hill-1261909-v2-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
        height:100%;
-       padding:300px 20px 0px 20px;
+       width:12.5%;
 }
+
+.img4text {}
 
 .sektion3 {display:flex;
           flex-direction:row;
