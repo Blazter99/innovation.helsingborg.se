@@ -60,6 +60,7 @@ img {border-radius:10px;}
 
 .sektion2 {display:flex;
            justify-content:center;
+           flex-wrap:wrap;
            width:100%;
 }
 
@@ -90,7 +91,6 @@ img {border-radius:10px;}
 .img1 {background-image:url(../images/dsc_0147-hor-scaled-636x848.jpg);
        background-size:cover;
        border-radius:10px;
-       height:100%;
        width:12.5%;
 }
 
@@ -100,7 +100,6 @@ img {border-radius:10px;}
 .img2 {background-image:url(../images/pexels-cottonbro-3171202-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       height:100%;
        width:12.5%;
 }
 
@@ -109,7 +108,6 @@ img {border-radius:10px;}
 .img3 {background-image:url(../images/slf026355-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       height:100%;
        width:12.5%;
 }
 
@@ -118,7 +116,6 @@ img {border-radius:10px;}
 .img4 {background-image:url(../images/pexels-creation-hill-1261909-v2-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       height:100%;
        width:12.5%;
 }
 
