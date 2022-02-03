@@ -147,6 +147,15 @@ img {border-radius:10px;}
 .sektion3 h1 {font-size:200%;
 }
 
+.sektion3img a {color:black;             
+}
+
+.sektion3img a:link {text-decoration:none;
+}
+
+.sektion3img a:hover {text-decoration:underline;
+}
+
 .sektion3img {display:flex;
               flex-direction:row;
               justify-content:space-evenly;
