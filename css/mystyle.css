@@ -83,12 +83,12 @@ img {border-radius:10px;}
 .sektion2 {display:flex;
            justify-content:center;
            width:100%;
-           padding:0px 680px;
+           padding:40px 680px 0px 680px;
            margin:20px auto;
 }
 
 .sektion2 p {font-size:20px;
-             padding-right:50px;
+             padding-right:420px;
 }
 
 .sektion2 h1 {font-size:200%;}
@@ -137,10 +137,11 @@ img {border-radius:10px;}
           justify-content:center;
           align-items:center;
           width:100%;
-          padding:0px 680px;
+          padding:40px 680px 0px 680px;
 }
 
 .sektion3 p {font-size:20px;
+             padding-right:430px;
 }
 
 .sektion3 h1 {font-size:200%;
@@ -150,7 +151,12 @@ img {border-radius:10px;}
               flex-direction:row;
               justify-content:space-evenly;
               width:100%;
-              padding-top:20px;
+}
+
+.info {height:20px;
+      width:20px;
+      float:right;
+      margin:0px 300px 0px 10px;
 }
 
 .opacity {opacity:0.6;
