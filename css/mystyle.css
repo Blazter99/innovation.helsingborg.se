@@ -13,13 +13,25 @@ body {margin:0;
 img {border-radius:10px;}
 
 #header {display:flex;
-         flex-direction:row;
-         justify-content:space-evenly;
+         justify-content:center;
+         align-items:center;
          width:100%;
-         position:sticky;
+         position:fixed;
+         top:0;
+         background-color:white;
 }
 
-.header {
+
+.header {width:25%;
+         text-align:center;
+}
+
+.header h1 {font-size:21px;
+            padding-left:140px;
+}
+
+.nav {width:25;
+      margin-right:200px;
 }
 
 .navbar {display:block;
@@ -29,14 +41,24 @@ img {border-radius:10px;}
 }
 
 .navbar li {display:inline-block;
-            padding:20px 15px;
+            padding:20px 10px;
             vertical-align:middle;
             font-size:18px;
+}
+
+.navbar li a {color:black;             
+}
+
+.navbar li a:link {text-decoration:none;
+}
+
+.navbar li a:hover {text-decoration:underline;
 }
 
 .sektion1 {width:100%;
            display:flex;
            justify-content:center;
+           padding:100px 0px 0px 0px;
 }
 
 .sektion1text {width:25%;
@@ -60,73 +82,62 @@ img {border-radius:10px;}
 
 .sektion2 {display:flex;
            justify-content:center;
-           flex-wrap:wrap;
            width:100%;
-}
-
-.sektion2textcontainer {width:50%;
-               
-}
-
-.sektion2text {width:60%;
-
-}
-
-.sektion2text2 {width:40%;
-
+           padding:0px 680px;
+           margin:20px auto;
 }
 
 .sektion2 p {font-size:20px;
+             padding-right:50px;
 }
 
 .sektion2 h1 {font-size:200%;}
 
-.sektion2imgs {width:50%;
-
+.sektion2img {display:flex;
+              justify-content:space-evenly;
+              align-items:flex-end;
+              width:100%;
+              color:white;
+              height:400px;
+              margin:10px auto;
 }
-
 
 .sektion2img a {color:white;}
 
 .img1 {background-image:url(../images/dsc_0147-hor-scaled-636x848.jpg);
        background-size:cover;
        border-radius:10px;
-       width:12.5%;
+       height:100%;
+       padding:300px 20px 0px 20px;
 }
-
-.img1text {}
 
 
 .img2 {background-image:url(../images/pexels-cottonbro-3171202-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       width:12.5%;
+       height:100%;
+       padding:300px 20px 0px 20px;
 }
-
-.img2text {}
 
 .img3 {background-image:url(../images/slf026355-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       width:12.5%;
+       height:100%;
+       padding:300px 20px 0px 20px;
 }
-
-.img3text {}
 
 .img4 {background-image:url(../images/pexels-creation-hill-1261909-v2-scaled-636x848.jpg);
       background-size:cover;
        border-radius:10px;
-       width:12.5%;
+       height:100%;
+       padding:300px 20px 0px 20px;
 }
 
-.img4text {}
-
 .sektion3 {display:flex;
-          flex-direction:row;
           justify-content:center;
           align-items:center;
           width:100%;
-          padding:20px 0px;
+          padding:0px 680px;
 }
 
 .sektion3 p {font-size:20px;
@@ -213,12 +224,21 @@ img {border-radius:10px;}
 
 .bottomtext p {font-size:20px;
                font-weight:300;
-              
+               padding:0px 70px;            
 }
 
 .bottomtext h1 {font-size:50px;
                 font-weight:300;
                 padding:0px 220px;
+}
+
+.button {background-color:white;
+         border:none;
+         color:black;
+         padding:25px 40px;
+         border-radius:40px;
+         font-weight:700;
+         text-decoration:none;
 }
 
 .bottomspan1 {vertical-align:baseline;              
