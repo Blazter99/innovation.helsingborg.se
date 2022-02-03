@@ -25,6 +25,15 @@ img {border-radius:10px;}
          text-align:center;
 }
 
+.header a {color:black;
+}
+
+.header a:link {text-decoration:none;
+}
+
+.header a:hover {text-decoration:underline;
+}
+
 .header h1 {font-size:21px;
             padding-left:140px;
 }
@@ -52,4 +61,146 @@ img {border-radius:10px;}
 }
 
 .navbar li a:hover {text-decoration:underline;
+}
+
+
+.sektion1 {width:100%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+}
+
+.sektion1text {width:50%;
+               padding-top:100px;
+               text-align:center;
+}
+
+.sektion1text h1 {font-size:58px;
+}
+
+.sektion1text p {font-size:21px;
+                 padding:0px 220px;
+                 font-weight:300;
+}
+
+.sektion2 {width:100%;
+           margin:0 auto;
+}
+
+.gridcontainer {display:flex;
+                flex-flow:row wrap;
+                justify-content:center;
+                margin:0 auto;
+}
+
+.img1 {max-width:25%;
+       padding:0px 16px;
+       margin-bottom:64px;
+       background-image:url(../images/groningen-v2-scaled-636x848.jpg);
+       background-size:cover;
+       background-repeat:no-repeat;
+}
+
+.text1 {width:100%;
+        padding:24px;
+        bottom:0;
+        left:0;
+}
+
+.img2 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/girls-4582899_1920-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text2 {width:100%;
+        padding:24px;
+        bottom:0;
+        left:0;
+}
+
+.img3 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/slf037318-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text3 {width:100%;
+        padding:24px;
+        bottom:0;
+        left:0;
+}
+
+.img4 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/mickael-tannus-brygga-v2-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text4 {width:100%;
+    padding:24px;
+    bottom:0;
+    left:0;
+}
+
+.img5 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/200831_shp_anja2-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text5 {width:100%;
+    padding:24px;
+    bottom:0;
+    left:0;
+}
+
+.img6 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/dsc_0147-hor-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text6 {width:100%;
+    padding:24px;
+    bottom:0;
+    left:0;
+}
+
+.img7 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/pexels-amina-filkins-5409735-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text7 {width:100%;
+    padding:24px;
+    bottom:0;
+    left:0;
+}
+
+.img8 {max-width:25%;
+    padding:0px 16px;
+    margin-bottom:64px;
+    background-image:url(../images/sbf034885-scaled-636x848.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.text8 {width:100%;
+    padding:24px;
+    bottom:0;
+    left:0;
 }
